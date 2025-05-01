@@ -1,74 +1,73 @@
-/* Overall container */
+
 .app-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 40px; /* Increased padding */
-  background-color: #f0f0f0; /* Slightly warmer background */
+  padding: 40px; 
+  background-color: #f0f0f0; 
   min-height: 100vh;
-  font-family: 'Arial', sans-serif; /* More standard font */
+  font-family: 'Arial', sans-serif; 
 }
 
-/* Product Card */
+
 .product-card {
-  width: 400px; /* Slightly wider card */
-  margin-bottom: 30px; /* Increased margin */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* More pronounced shadow */
-  border-radius: 12px; /* More rounded corners */
+  width: 400px; 
+  margin-bottom: 30px; 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+  border-radius: 12px; 
   overflow: hidden;
-  background-color: #fff; /* White card background */
-  border: 1px solid #ddd; /* Subtle border */
+  background-color: #fff; 
+  border: 1px solid #ddd; 
 }
 
-/* Product Image */
+
 .product-image {
-  height: 250px; /* Increased image height */
+  height: 250px; 
   object-fit: cover;
-  border-bottom: 1px solid #eee; /* Separator below image */
+  border-bottom: 1px solid #eee; 
 }
 
-/* Card Body */
+
 .product-card .card-body {
   padding: 20px;
 }
 
-/* Product Name */
 .product-name {
-  font-size: 2em; /* Larger name */
+  font-size: 2em; 
   margin-bottom: 10px;
   color: #333;
-  font-weight: bold; /* Bold name */
+  font-weight: bold; 
 }
 
-/* Product Price */
+
 .product-price {
-  color: #28a745; /* Green price */
+  color: #28a745;
   font-size: 1.5em;
   font-weight: bold;
   margin-bottom: 15px;
 }
 
-/* Product Description */
+
 .product-description {
   color: #555;
-  line-height: 1.6; /* Improved readability */
+  line-height: 1.6; 
 }
 
-/* Greeting Section */
-.greeting-section { /* <-- Opening brace */
+
+.greeting-section { 
   margin-top: 30px;
   text-align: center;
-} /* <-- Closing brace */
+} 
 
 .greeting-message {
   font-size: 1.3em;
-  color: #007bff; /* Blue greeting */
+  color: #007bff;
   margin-bottom: 15px;
   font-weight: bold;
 }
 
 .user-image {
-  width: 100px; /* Slightly larger user image */
+  width: 100px; 
   height: 100px;
   border-radius: 50%;
   object-fit: cover;
